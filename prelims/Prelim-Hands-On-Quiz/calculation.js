@@ -1,4 +1,6 @@
-function add(a, b, c , d) {
+//Medina, Daryll
+//WD 201
+function add(a, b, c, d) {
   return a + b + c + d;
 }
 
