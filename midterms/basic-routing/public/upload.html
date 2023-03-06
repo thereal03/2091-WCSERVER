@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>My Express App | Upload</title>
+  </head>
+  <body>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a class="active" href="upload.html">Upload</a></li>
+    </ul>
+
+    <h1>Welcome to WCSERVER</h1>
+    <h2>This is the Upload page</h2>
+    <br />
+    <h1>Upload picture you've like</h1>
+    <form action="/uploads" enctype="multipart/form-data" method="POST">
+      <input type="file" name="myFile" /> <br />
+      <button type="submit">Submit</button>
+    </form>
+    <p>
+      Upload most interesting pictures so that the followers would enjoy you're
+      own picture.
+    </p>
+  </body>
+</html>

@@ -1,0 +1,51 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  width: 99%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(108, 84, 84);
+}
+
+.active {
+  background-color: rgba(197, 14, 14, 0.534);
+}
+h1,
+h2 {
+  text-align: center;
+  font-size: 40px;
+}
+
+p {
+  font-size: 30px;
+  text-align: center;
+}
+
+body {
+  background-color: rgba(127, 255, 212, 0.53);
+}
+
+.fix {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  line-height: 100px;
+  width: fit-content;
+}
