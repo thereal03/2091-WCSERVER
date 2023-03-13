@@ -1,0 +1,20 @@
+h1 {
+  font-size: 50px;
+  text-align: center;
+  color: whitesmoke;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+  color: whitesmoke;
+}
+
+body {
+  background-color: darkolivegreen;
+  color: whitesmoke;
+}
+
+hr {
+  background-color: lightgreen;
+}
